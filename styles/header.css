@@ -1,0 +1,261 @@
+.header {
+   display: flex;
+   flex-direction: row;
+   height: 70px;
+   width: 100%;
+   justify-content: space-between;
+     position: fixed;
+     background-color: white;
+     top: 0px;
+     left:0px;
+     border-bottom-color:rgb(209, 205, 205);
+     border-bottom-style:solid;
+     border-bottom-width: 1px;
+     z-index : 100;
+}
+
+.left-section {
+   width: 200px;
+   display: flex;
+   align-items: center;
+}
+
+.hamburger-menu {
+    height: 30px;
+    margin-right: 30px;
+    margin-left: 27px;
+}
+
+.youtube-logo {
+    height: 25px;
+}
+
+.middle-section {
+flex: 1;
+max-width: 600px;
+
+margin-left:30px;
+margin-right: 30px;
+display: flex;
+align-items: center;
+} 
+
+.search-button-div {
+    position:relative;
+} 
+
+.search-button-div .tooltip {
+    font-size:12px;
+    font-family: Roboto, arial;
+    border-radius: 3px;
+ background-color: gray;
+ color: white;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ padding-right: 4px;
+ padding-left: 4px;
+ position: absolute;
+ bottom: -30px;
+ opacity: 0;
+ transition:opacity 0.5s;
+ pointer-events: none;
+} 
+
+.search-button-div:hover .tooltip {
+opacity: 1;
+}
+
+
+.search-bar {
+    height: 34px;
+    flex:1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(197, 195, 195);
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.05);
+    width: 0;
+}
+
+.search-bar::placeholder {
+font-size: 16px;
+color: rgb(153, 151, 151);
+padding-left: 10px;
+}
+
+.search-image {
+ height: 24px;
+}
+
+.voice-image {
+height: 24px;
+}
+
+.search-button {
+height: 38px;
+width: 67px;
+margin-right: 8px;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(197, 195, 195);
+margin-left: -1px;
+background-color: rgb(247, 243, 243);
+}
+
+.voice-button {
+background-color: rgb(246, 244, 244);
+border:none;
+height: 38px;
+width: 38px;
+border-radius: 50%;
+}
+
+.voice-button-div {
+    position:relative;
+}
+
+.voice-button-div .tooltip {
+        font-size:12px;
+    font-family: Roboto, arial;
+    border-radius: 3px;
+    background-color: gray;
+    width: 125px;
+    position:absolute;
+    bottom: -25px;
+    right:-50px;
+ color: white;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ padding-right: 4px;
+ padding-left: 4px;
+ opacity: 0;
+ transition:opacity 0.5s;
+ pointer-events: none;
+}
+
+.voice-button-div:hover .tooltip {
+    opacity: 1;
+}
+
+
+.right-section {
+width: 180px;
+display:flex;
+align-items: center;
+justify-content:space-between;
+margin-right: 20px;
+flex-shrink: 0;
+}
+
+.uploads-image {
+width: 30px;
+}
+
+.uploads-div {
+position:relative;
+}
+
+.uploads-div .tooltip {
+        font-size:12px;
+    font-family: Roboto, arial;
+    border-radius: 3px;
+background-color: gray;
+position:absolute;
+bottom: -25px;
+right:-6px;
+ color: white;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ padding-right: 4px;
+ padding-left: 4px;
+ opacity: 0;
+ transition:opacity 0.5s;
+ pointer-events: none;
+}
+
+.uploads-div:hover .tooltip {
+ opacity:1
+}
+
+.yt-apps-image {
+width: 30px;
+}
+
+.yt-apps-div {
+position:relative;
+}
+
+.yt-apps-div .tooltip {
+        font-size:12px;
+    font-family: Roboto, arial;
+    border-radius: 3px;
+background-color: gray;
+width: 78px;
+position:absolute;
+bottom: -25px;
+right:-32px;
+ color: white;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ padding-right: 4px;
+ padding-left: 4px;
+ opacity: 0;
+ transition:opacity 0.5s;
+ pointer-events: none;
+}
+
+.yt-apps-div:hover .tooltip {
+ opacity:1
+}
+
+.notifications-image {
+width: 30px;
+}
+
+.notifications-image-div {
+position: relative;
+}
+
+.notifications-count {
+position: absolute;
+top:0px;
+right: -2px;
+background-color: rgb(173, 6, 6);
+color: white;
+height: 15px;
+width: 14px;
+text-align: center;
+border-radius: 50%;
+font-size: 12px;
+font-family: Roboto,arial;
+
+}
+
+.notifications-image-div {
+position:relative;
+}
+
+.notifications-image-div .tooltip {
+        font-size:12px;
+    font-family: Roboto, arial;
+    border-radius: 3px;
+background-color: gray;
+position:absolute;
+bottom: -25px;
+right:-30px;
+ color: white;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ padding-right: 4px;
+ padding-left: 4px;
+ opacity: 0;
+ transition:opacity 0.5s;
+ pointer-events: none;
+}
+
+.notifications-image-div:hover .tooltip {
+ opacity:1
+}
+
+.my-channel-image {
+width: 35px;
+}
